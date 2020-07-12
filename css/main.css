@@ -627,7 +627,7 @@ body {
 	color:#fff; 
 	}
 #search-submit { 
-	font-size:17px; text-shadow:none; color: #fff; border:0; outline:0; padding:0; width: 100%; line-height: 2.6em; background: #8ACB82; border-radius: 0; font-weight: 400;
+	font-size:17px; text-shadow:none; color: #fff; border:0; outline:0; padding:0; width: 100%; line-height: 2.6em; background: #007dbb; border-radius: 0; font-weight: 400;
 	}
 #search-submit:hover { 
 	opacity: .9; 
@@ -695,10 +695,10 @@ body {
 	background-color: #ECF0F0; 
 	}
 .one-page-layout .site-main > section:nth-of-type(3) { 
-	background-color: #EBF0DF; 
+	background-color: #e8e9f1; 
 	}
 .one-page-layout .site-main > section:nth-of-type(4) { 
-	background-color: #60d7a9; 
+	background-color: #eef0df; 
 	}
 .one-page-layout .site-main > section:nth-of-type(5) { 
 	background-color: #E5DCC5; 
@@ -785,7 +785,7 @@ body {
 	}
 .section-title h2:after, 
 .section-title h2:before {
-	content: " "; display: block; position: absolute; bottom: -.5em; width: 2em; height: 100%; background-color: #7DB376; pointer-events: none;
+	content: " "; display: block; position: absolute; bottom: -.5em; width: 2em; height: 100%; background-color: #007dbb; pointer-events: none;
 	}
 .section-title h2:after {
 	right: -1.57em; z-index: -1;
@@ -794,7 +794,7 @@ body {
 	bottom: auto; top: -.5em; left: -1.57em; z-index: -1;
 	}
 .section-title h2 i {
-	display: inline-block; position: relative; padding: .8em 3em; font-style: normal; color: #fff; background-color: #8ACB82;
+	display: inline-block; position: relative; padding: .8em 3em; font-style: normal; color: #fff; background-color: #007dbb;
 	}
 .section-title h2 i:after, h2 i:before {
 	content: " "; display: block; position: absolute; width: 0; height: 0; bottom: -.5em; left: -.05em; pointer-events: none; -webkit-mask: none;
@@ -885,14 +885,14 @@ body {
         content : ""; position: absolute; top: 6px; left: 7px; width: 14px; height: 14px; border-radius: 50%; background: #fff;
         }
 	.event:nth-of-type(2):after {
-        background-color: #8ACB82;
+        background-color: #007dbb;
 		}
     .event h2 {
  		margin-left: .6em; margin-bottom: .4em; font-size: 1.3em; font-weight: 400; letter-spacing: 0;
 		}
     .event h2 + p i,
 	.event h2 + p img {
-        display: block; text-align: center; font-size: 22px; font-weight: bold; position: absolute; top: -14px; left: -10px; width: 52px; line-height: 52px; margin: 0;  z-index: 120; color: #fff; background: #8ACB82; border-radius: 50%;
+        display: block; text-align: center; font-size: 22px; font-weight: bold; position: absolute; top: -14px; left: -10px; width: 52px; line-height: 52px; margin: 0;  z-index: 120; color: #fff; background: #007dbb; border-radius: 50%;
         }
     .event h2 + p i:before {
         margin:0; 
@@ -901,10 +901,10 @@ body {
 		padding: 10px; border-radius: 4px;
         }
 	.event h3 {
-        display: inline-block; position: relative; padding: 3px 8px; font-size: 11px; line-height: 1.3; font-weight: 400; letter-spacing: 0; margin: 0 0 1.5em 0; text-transform: uppercase; color: #fff; background: #8ACB82;
+        display: inline-block; position: relative; padding: 3px 8px; font-size: 11px; line-height: 1.3; font-weight: 400; letter-spacing: 0; margin: 0 0 1.5em 0; text-transform: uppercase; color: #fff; background: #007dbb;
 		}
 		.event h3:before {
-			content: ""; position: absolute; display: block; bottom: 0; border: 10px solid #8ACB82; z-index: -1; left: -1.2em; border-left-color: transparent !important;
+			content: ""; position: absolute; display: block; bottom: 0; border: 10px solid #007dbb; z-index: -1; left: -1.2em; border-left-color: transparent !important;
 			}
 	.event:last-of-type {
 		padding-bottom: 0; margin-bottom: 3em;
@@ -1320,7 +1320,7 @@ input[type=submit]:hover,
 input[type=button]:hover,
 button:hover,
 a.button:hover {
- 	color: #fff; background-color: #8ACB82; border-color: transparent;
+ 	color: #fff; background-color: #007dbb; border-color: transparent;
 	}
 input[type=submit]:active,
 input[type=button]:active,
@@ -1548,6 +1548,15 @@ a.button.big i {
 }
 
 /* CONTACT FORM */
+#contact .content{
+	background-image: url(../images/site/background.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+
 .contact-form,
 .nf-form-cont {
 	position: relative;	margin: 1.6em auto 3em auto; max-width: 600px; overflow: auto;
@@ -1704,7 +1713,7 @@ button.mfp-arrow-right:before {
 		display: none;
 		}
 	.entry-meta .cat-links a {
-		display: inline-block; color: #fff; background: #8ACB82;
+		display: inline-block; color: #fff; background: #007dbb;
 		}
 	.entry-meta .cat-links a:hover {
 		opacity: .9;
@@ -1901,7 +1910,7 @@ a.more-link:hover {
 	clear: left;
     }
 .gallery .gallery-caption {
-    display: none; position: absolute; bottom: 0; left: 0; right: 0; max-height: 45%; margin: 0; padding: 6px 8px; text-align: center; opacity: 0; filter: alpha(opacity=0); font-size: 13px; line-height: 1.4; overflow: hidden; z-index: 999; color: #fff; background-color: #8ACB82;
+    display: none; position: absolute; bottom: 0; left: 0; right: 0; max-height: 45%; margin: 0; padding: 6px 8px; text-align: center; opacity: 0; filter: alpha(opacity=0); font-size: 13px; line-height: 1.4; overflow: hidden; z-index: 999; color: #fff; background-color: #007dbb;
     }
 .gallery-caption:before {
 	content: ""; height: 100%; min-height: 49px; position: absolute; top: 0; left: 0; width: 100%;
@@ -2390,7 +2399,7 @@ a.more-link:hover {
  	display: inline-block; text-align: center; padding: 0; line-height: 24px; font-size: 30px; color: #1C262B; border: 1px solid rgba(28, 38, 43, 0.1); cursor: pointer; border-radius: 50%;
 	}
 .portfolio-nav a:hover {
-	color: #fff; border-color: transparent; background-color: #8ACB82;
+	color: #fff; border-color: transparent; background-color: #007dbb;
 	}
 .portfolio-nav a:before {
 	line-height: 1;
@@ -2430,7 +2439,7 @@ a {
  	color: #096;
 	}
 a:hover {
- 	color: #8ACB82;
+ 	color: #007dbb;
 	}
 
 /* Text Selection */
@@ -2468,23 +2477,23 @@ a.button:hover,
 a.more-link:hover,
 .section-title h2 i,
 .event:nth-of-type(2):after  {
- 	background-color: #8ACB82;
+ 	background-color: #007dbb;
 	}
 .section-title h2:after, 
 .section-title h2:before {
-	background-color: #7DB376; /* darken primary color for ribbon shadow effect */
+	background-color: #12628a; /* darken primary color for ribbon shadow effect */
 	}
 .bypostauthor > article {
-	border-color: #8ACB82
+	border-color: #007dbb
 	}
 .event h3:before {
-	border-color: #8ACB82;
+	border-color: #007dbb;
 	}
 
 /* PROGRESS BAR COLOR */
 #nprogress .bar {
- 	background-color: #FFFC00;
+ 	background-color: #7ceafb;
 	}
 #nprogress .spinner-icon {
-  	border-top-color: #FFFC00; border-left-color: #FFFC00;
+  	border-top-color: #7ceafb; border-left-color: #7ceafb;
 	}
