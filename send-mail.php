@@ -1,9 +1,9 @@
 <?php
 
 	// site owner
-	$site_name = 'Empathy HTML5 Template';
-	$sender_domain = 'server@your-domain.com';
-	$to = 'jonhdoeeee@jonhdoe.com';
+	$site_name = 'Joan Lluis Mudarra Portfolio';
+	$sender_domain = 'joanlluismudarra@gmail.com';
+	$to = 'joanlluismudarra@gmail.com';
 	
 	// contact form fields
 	$name = trim( $_POST['name'] );
