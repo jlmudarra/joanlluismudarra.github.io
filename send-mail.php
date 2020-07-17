@@ -1,7 +1,7 @@
 <?php
 
 	// site owner
-	$site_name = 'Joan Lluis Mudarra Portfolio';
+	$site_name = 'Joan Lluis Mudarra Barros';
 	$sender_domain = 'joanlluismudarra@gmail.com';
 	$to = 'joanlluismudarra@gmail.com';
 	
