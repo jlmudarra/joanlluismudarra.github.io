@@ -848,7 +848,11 @@ body {
 .row [class^="col-"]:nth-child(3n) .process:after { 
     display: none; 
     }
-		
+.freebirdFormviewerViewHeaderHeader{
+	display: none !important;
+}
+
+
 /* FUN FACT */
 .fun-fact { 
 	padding-right: 1em; margin-bottom: 1.4em; text-align: center;
@@ -1562,8 +1566,14 @@ a.button.big i {
   	-moz-background-size: cover;
   	-o-background-size: cover;
 	background-size: cover;
+	background-position: center;
 }
+@media(max-width: 650px){
+	.formularioDegoogle{
+		max-width: 95%;
+	}
 
+}
 .contact-form,
 .nf-form-cont {
 	position: relative;	margin: 1.6em auto 3em auto; max-width: 600px; overflow: auto;
