@@ -2521,3 +2521,16 @@ a.more-link:hover,
 		width: 98%;
 	}
 }
+
+.blog_02_text a{
+	color: #080b0c !important;
+}
+.blog_02_text a:hover{
+	color: #12628a !important;
+}
+.blog-single .entry-content {
+	max-width: 700px !important
+}
+.blog-single .entry-meta {
+	color: #626262 !important;
+}
