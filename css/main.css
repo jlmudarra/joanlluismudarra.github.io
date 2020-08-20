@@ -2537,9 +2537,9 @@ a.more-link:hover,
 .blog-single .entry-content {
 	max-width: 700px !important
 }
-@media(max-width: 991px){
+@media(max-width: 600px){
 	.blog-single .entry-content img{
 		height: auto !important;
-		max-height: 400px !important;
+		max-height: 300px !important;
 	}
 }
