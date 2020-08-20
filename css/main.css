@@ -2534,3 +2534,9 @@ a.more-link:hover,
 .blog-single .entry-meta {
 	color: #626262 !important;
 }
+.blog-single .entry-content {
+	max-width: 700px !important
+}
+.blog-single .entry-content img{
+	height: auto !important;
+}
