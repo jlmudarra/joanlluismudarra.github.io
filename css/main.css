@@ -2539,4 +2539,5 @@ a.more-link:hover,
 }
 .blog-single .entry-content img{
 	height: auto !important;
+	max-height: initial !important;
 }
